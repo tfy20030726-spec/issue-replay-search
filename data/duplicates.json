@@ -1,0 +1,80 @@
+[
+  {
+    "query": 334092,
+    "canonical": 127441,
+    "evidence_url": "https://github.com/microsoft/vscode/issues/334092#issuecomment-6337040475",
+    "confirmed_at": "2026-10-22T09:07:54Z"
+  },
+  {
+    "query": 334343,
+    "canonical": 308421,
+    "evidence_url": "https://github.com/microsoft/vscode/issues/334343#issuecomment-6369212869",
+    "confirmed_at": "2026-10-23T16:06:00Z"
+  },
+  {
+    "query": 334733,
+    "canonical": 334167,
+    "evidence_url": "https://github.com/microsoft/vscode/issues/334733#issuecomment-5556911780",
+    "confirmed_at": "2026-09-06T04:33:07Z"
+  },
+  {
+    "query": 334890,
+    "canonical": 334167,
+    "evidence_url": "https://github.com/microsoft/vscode/issues/334890#issuecomment-5569818680",
+    "confirmed_at": "2026-09-07T11:17:20Z"
+  },
+  {
+    "query": 336718,
+    "canonical": 330947,
+    "evidence_url": "https://github.com/microsoft/vscode/issues/336718#issuecomment-5872055615",
+    "confirmed_at": "2026-09-28T14:30:23Z"
+  },
+  {
+    "query": 337240,
+    "canonical": 15106,
+    "evidence_url": "https://github.com/microsoft/vscode/issues/337240#issuecomment-6848510316",
+    "confirmed_at": "2026-11-13T08:57:27Z"
+  },
+  {
+    "query": 339607,
+    "canonical": 339599,
+    "evidence_url": "https://github.com/microsoft/vscode/issues/339607#issuecomment-5985926440",
+    "confirmed_at": "2026-10-05T00:13:19Z"
+  },
+  {
+    "query": 340273,
+    "canonical": 34442,
+    "evidence_url": "https://github.com/microsoft/vscode/issues/340273#issuecomment-6148929274",
+    "confirmed_at": "2026-10-13T15:21:01Z"
+  },
+  {
+    "query": 341110,
+    "canonical": 328933,
+    "evidence_url": "https://github.com/microsoft/vscode/issues/341110#issuecomment-6141770008",
+    "confirmed_at": "2026-10-13T08:43:40Z"
+  },
+  {
+    "query": 341802,
+    "canonical": 341753,
+    "evidence_url": "https://github.com/microsoft/vscode/issues/341802#issuecomment-6204953266",
+    "confirmed_at": "2026-10-16T00:09:40Z"
+  },
+  {
+    "query": 344073,
+    "canonical": 330801,
+    "evidence_url": "https://github.com/microsoft/vscode/issues/344073#issuecomment-6610887526",
+    "confirmed_at": "2026-11-03T17:27:08Z"
+  },
+  {
+    "query": 348443,
+    "canonical": 348261,
+    "evidence_url": "https://github.com/microsoft/vscode/issues/348443#issuecomment-6922394590",
+    "confirmed_at": "2026-11-16T16:30:21Z"
+  },
+  {
+    "query": 348450,
+    "canonical": 348261,
+    "evidence_url": "https://github.com/microsoft/vscode/issues/348450#issuecomment-6922394143",
+    "confirmed_at": "2026-11-16T16:30:20Z"
+  }
+]

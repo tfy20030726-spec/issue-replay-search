@@ -1,0 +1,367 @@
+{
+  "rows": [
+    {
+      "query": 334092,
+      "canonical": 127441,
+      "evidence_url": "https://github.com/microsoft/vscode/issues/334092#issuecomment-6337040475",
+      "confirmed_at": "2026-10-22T09:07:54Z",
+      "candidate_count": 88,
+      "results": {
+        "overlap": [
+          319870,
+          319956,
+          320370,
+          320756,
+          321404
+        ],
+        "bm25": [
+          319870,
+          321404,
+          319956,
+          320756,
+          333824
+        ]
+      },
+      "ranks": {
+        "overlap": null,
+        "bm25": null
+      }
+    },
+    {
+      "query": 334343,
+      "canonical": 308421,
+      "evidence_url": "https://github.com/microsoft/vscode/issues/334343#issuecomment-6369212869",
+      "confirmed_at": "2026-10-23T16:06:00Z",
+      "candidate_count": 94,
+      "results": {
+        "overlap": [
+          320061,
+          34442,
+          308421,
+          319261,
+          319266
+        ],
+        "bm25": [
+          320061,
+          330801,
+          319907,
+          320264,
+          320649
+        ]
+      },
+      "ranks": {
+        "overlap": 3,
+        "bm25": 10
+      }
+    },
+    {
+      "query": 334733,
+      "canonical": 334167,
+      "evidence_url": "https://github.com/microsoft/vscode/issues/334733#issuecomment-5556911780",
+      "confirmed_at": "2026-09-06T04:33:07Z",
+      "candidate_count": 105,
+      "results": {
+        "overlap": [
+          319839,
+          319266,
+          319870,
+          319925,
+          320059
+        ],
+        "bm25": [
+          319839,
+          334167,
+          333948,
+          319266,
+          334489
+        ]
+      },
+      "ranks": {
+        "overlap": 35,
+        "bm25": 2
+      }
+    },
+    {
+      "query": 334890,
+      "canonical": 334167,
+      "evidence_url": "https://github.com/microsoft/vscode/issues/334890#issuecomment-5569818680",
+      "confirmed_at": "2026-09-07T11:17:20Z",
+      "candidate_count": 111,
+      "results": {
+        "overlap": [
+          320063,
+          319684,
+          319751,
+          319839,
+          319925
+        ],
+        "bm25": [
+          320063,
+          334733,
+          321276,
+          334167,
+          333824
+        ]
+      },
+      "ranks": {
+        "overlap": 18,
+        "bm25": 4
+      }
+    },
+    {
+      "query": 336718,
+      "canonical": 330947,
+      "evidence_url": "https://github.com/microsoft/vscode/issues/336718#issuecomment-5872055615",
+      "confirmed_at": "2026-09-28T14:30:23Z",
+      "candidate_count": 134,
+      "results": {
+        "overlap": [
+          336516,
+          319684,
+          319751,
+          319934,
+          319956
+        ],
+        "bm25": [
+          336516,
+          334901,
+          330947,
+          334243,
+          319956
+        ]
+      },
+      "ranks": {
+        "overlap": 6,
+        "bm25": 3
+      }
+    },
+    {
+      "query": 337240,
+      "canonical": 15106,
+      "evidence_url": "https://github.com/microsoft/vscode/issues/337240#issuecomment-6848510316",
+      "confirmed_at": "2026-11-13T08:57:27Z",
+      "candidate_count": 137,
+      "results": {
+        "overlap": [
+          319825,
+          334837,
+          335171,
+          34442,
+          308421
+        ],
+        "bm25": [
+          335171,
+          319825,
+          334837,
+          319373,
+          323869
+        ]
+      },
+      "ranks": {
+        "overlap": null,
+        "bm25": null
+      }
+    },
+    {
+      "query": 339607,
+      "canonical": 339599,
+      "evidence_url": "https://github.com/microsoft/vscode/issues/339607#issuecomment-5985926440",
+      "confirmed_at": "2026-10-05T00:13:19Z",
+      "candidate_count": 156,
+      "results": {
+        "overlap": [
+          319373,
+          319988,
+          320367,
+          339599
+        ],
+        "bm25": [
+          339599,
+          320367,
+          319373,
+          319988
+        ]
+      },
+      "ranks": {
+        "overlap": 4,
+        "bm25": 1
+      }
+    },
+    {
+      "query": 340273,
+      "canonical": 34442,
+      "evidence_url": "https://github.com/microsoft/vscode/issues/340273#issuecomment-6148929274",
+      "confirmed_at": "2026-10-13T15:21:01Z",
+      "candidate_count": 174,
+      "results": {
+        "overlap": [
+          34442,
+          308421,
+          319261,
+          319266,
+          319288
+        ],
+        "bm25": [
+          335217,
+          340251,
+          320264,
+          320649,
+          335619
+        ]
+      },
+      "ranks": {
+        "overlap": 1,
+        "bm25": 6
+      }
+    },
+    {
+      "query": 341110,
+      "canonical": 328933,
+      "evidence_url": "https://github.com/microsoft/vscode/issues/341110#issuecomment-6141770008",
+      "confirmed_at": "2026-10-13T08:43:40Z",
+      "candidate_count": 189,
+      "results": {
+        "overlap": [
+          328933,
+          334935,
+          319934,
+          320744,
+          330947
+        ],
+        "bm25": [
+          328933,
+          334935,
+          320744,
+          334429,
+          334160
+        ]
+      },
+      "ranks": {
+        "overlap": 1,
+        "bm25": 1
+      }
+    },
+    {
+      "query": 341802,
+      "canonical": 341753,
+      "evidence_url": "https://github.com/microsoft/vscode/issues/341802#issuecomment-6204953266",
+      "confirmed_at": "2026-10-16T00:09:40Z",
+      "candidate_count": 193,
+      "results": {
+        "overlap": [
+          340737,
+          341753,
+          308421,
+          319266,
+          319634
+        ],
+        "bm25": [
+          341753,
+          340737,
+          319266,
+          308421,
+          323095
+        ]
+      },
+      "ranks": {
+        "overlap": 2,
+        "bm25": 1
+      }
+    },
+    {
+      "query": 344073,
+      "canonical": 330801,
+      "evidence_url": "https://github.com/microsoft/vscode/issues/344073#issuecomment-6610887526",
+      "confirmed_at": "2026-11-03T17:27:08Z",
+      "candidate_count": 199,
+      "results": {
+        "overlap": [
+          320063,
+          333933,
+          340786,
+          308421,
+          319684
+        ],
+        "bm25": [
+          339749,
+          320063,
+          319925,
+          340786,
+          333948
+        ]
+      },
+      "ranks": {
+        "overlap": 49,
+        "bm25": 17
+      }
+    },
+    {
+      "query": 348443,
+      "canonical": 348261,
+      "evidence_url": "https://github.com/microsoft/vscode/issues/348443#issuecomment-6922394590",
+      "confirmed_at": "2026-11-16T16:30:21Z",
+      "candidate_count": 247,
+      "results": {
+        "overlap": [
+          348261,
+          319261,
+          319853,
+          320220,
+          335425
+        ],
+        "bm25": [
+          348261,
+          319261,
+          339139,
+          320220,
+          340256
+        ]
+      },
+      "ranks": {
+        "overlap": 1,
+        "bm25": 1
+      }
+    },
+    {
+      "query": 348450,
+      "canonical": 348261,
+      "evidence_url": "https://github.com/microsoft/vscode/issues/348450#issuecomment-6922394143",
+      "confirmed_at": "2026-11-16T16:30:20Z",
+      "candidate_count": 248,
+      "results": {
+        "overlap": [
+          320367,
+          340737,
+          341802,
+          308421,
+          319634
+        ],
+        "bm25": [
+          320367,
+          340737,
+          341802,
+          320264,
+          320649
+        ]
+      },
+      "ranks": {
+        "overlap": 12,
+        "bm25": 15
+      }
+    }
+  ],
+  "metrics": {
+    "overlap": {
+      "queries": 13,
+      "hits_at_1": 3,
+      "hits_at_5": 6,
+      "mrr_at_5": 0.3141
+    },
+    "bm25": {
+      "queries": 13,
+      "hits_at_1": 4,
+      "hits_at_5": 7,
+      "mrr_at_5": 0.391
+    }
+  }
+}

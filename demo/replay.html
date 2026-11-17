@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>重复工单回放 · VS Code</title>
+<style>
+:root{color-scheme:light;--ink:#152d34;--muted:#4a6369;--line:#b9c9c9;--teal:#006857;--surface:#fff;--tint:#e3f4eb}
+*{box-sizing:border-box}body{margin:0;background:#eff3f2;color:var(--ink);font:16px/1.55 "Segoe UI","Microsoft YaHei",sans-serif}
+main{max-width:1080px;margin:auto;padding:40px 5vw 64px}header{padding:0 0 24px;border-bottom:3px solid var(--ink)}
+h1{font-size:clamp(2.2rem,5vw,4.4rem);letter-spacing:-.055em;margin:.12em 0 .15em;line-height:1.12}h2{margin:0 0 .65em;font-size:1.25rem}
+p{margin:.35em 0}.summary{max-width:75ch;color:var(--muted)}.meta{font:600 .82rem/1.7 Consolas,monospace;color:var(--teal)}
+.stats{display:flex;flex-wrap:wrap;gap:1.25em 2.6em;padding:18px 0 22px;border-bottom:1px solid var(--line)}.stats p{margin:0}
+strong.count{display:block;font:650 1.65rem/1.2 "Segoe UI",sans-serif}.quiet{font-size:.88rem;color:var(--muted)}
+fieldset{border:0;margin:0;padding:0}label,legend{font-weight:650}select{width:100%;padding:.75em 2em .75em .8em;color:var(--ink);background:var(--surface);border:1px solid #688489;border-radius:4px;font:inherit;margin:6px 0}
+.case{padding:24px 0 18px}.query{margin:8px 0}.columns{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+article{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--teal);padding:18px;border-radius:5px}ol{margin:16px 0 0;padding:0;list-style:none;counter-reset:results}
+li{counter-increment:results;display:grid;grid-template-columns:2.1em 1fr;gap:.4em;padding:.65em 0;border-top:1px solid var(--line);overflow-wrap:anywhere}
+li:before{content:counter(results,decimal-leading-zero);font:.82rem/1.9 Consolas,monospace;color:var(--muted)}
+li.hit{background:var(--tint)}.match{display:block;color:var(--teal);font-weight:650;font-size:.82rem}a{color:#005f60;text-underline-offset:3px}a:hover{text-decoration-thickness:2px}
+.evidence{margin-top:18px;border:1px solid var(--line);border-left:4px solid var(--ink);padding:16px 18px}.notes{margin-top:16px;font-size:.87rem;color:var(--muted)}
+:focus-visible{outline:3px solid #a34d06;outline-offset:3px}@media(max-width:720px){main{padding:24px 16px 38px}.columns{grid-template-columns:1fr}.stats{gap:1.1em}article{padding:15px}}
+</style>
+</head>
+<body><main>
+<header><p class="meta" lang="en">microsoft / vscode</p><h1>重复工单回放</h1><p class="summary">收到一份新的问题报告时，能从已有工单中找到原单吗？选择一个真实案例，对照两种检索方法的前五个结果。</p></header>
+<section class="stats" aria-label="样本内评测结果">
+<p><strong class="count" id="corpus"></strong><span class="quiet">快照中的工单</span></p>
+<p><strong class="count" id="n"></strong><span class="quiet">已核验的重复关系</span></p>
+<p><strong class="count" id="overlap"></strong><span class="quiet">词重合命中前五</span></p>
+<p><strong class="count" id="bm25"></strong><span class="quiet">BM25 命中前五</span></p></section>
+<section class="case"><label for="choose">选择新报告的工单</label><select id="choose"></select><p class="query" id="question"></p><p class="quiet" id="context"></p></section>
+<section class="columns" aria-label="两种检索方法的前五个结果">
+<article><h2>词重合</h2><p class="quiet">按两份标题共同出现的词计算相似度。</p><ol id="out-overlap"></ol></article>
+<article><h2>BM25</h2><p class="quiet">考虑词在标题集合里有多常见，给稀有匹配词更高权重。</p><ol id="out-bm25"></ol></article>
+</section>
+<aside class="evidence"><h2>维护者指向的原单</h2><p id="original"></p><p id="proof"></p></aside>
+<p class="notes">检索范围限于快照里在新工单之前创建的候选。标题采用采集时的版本。页面展示已确认的重复案例，成绩只描述这批样本。</p>
+</main>
+<script id="dataset" type="application/json">__REPLAY_DATA__</script>
+<script>
+"use strict";
+const data=JSON.parse(document.getElementById("dataset").textContent);
+const methods=["overlap","bm25"];
+const get=id=>document.getElementById(id);
+function link(text,url){const node=document.createElement("a");node.textContent=text;node.href=url;return node}
+function issueLink(number){return link("#"+number+" · "+data.issues[number][0],"https://github.com/microsoft/vscode/issues/"+number)}
+function update(){
+  const row=data.rows[get("choose").value];
+  get("question").replaceChildren(issueLink(row.query));
+  get("context").textContent="提交于 "+data.issues[row.query][1].replace("T"," ").replace("Z"," UTC")+" · 当时快照中有 "+row.candidate_count+" 个候选。";
+  for(const method of methods){
+    const list=get("out-"+method);list.replaceChildren();
+    for(const number of row.results[method]){
+      const item=document.createElement("li"),body=document.createElement("div");
+      body.append(issueLink(number));
+      if(number===row.canonical){item.className="hit";const flag=document.createElement("span");flag.className="match";flag.textContent="命中原单";body.append(flag)}
+      item.append(body);list.append(item);
+    }
+    if(!list.children.length){const none=document.createElement("li");none.textContent="没有匹配的候选";list.append(none)}
+  }
+  get("original").replaceChildren(issueLink(row.canonical));
+  get("proof").replaceChildren(link("查看 GitHub 上的判重依据",row.evidence_url));
+}
+get("corpus").textContent=data.size.toLocaleString("zh-CN");
+get("n").textContent=data.rows.length;
+for(const method of methods){
+  const hits=data.rows.filter(row=>row.results[method].includes(row.canonical)).length;
+  get(method).textContent=hits+" / "+data.rows.length;
+}
+data.rows.forEach((row,i)=>{const opt=document.createElement("option");opt.value=i;opt.textContent="#"+row.query+" · "+data.issues[row.query][0];get("choose").append(opt)});
+const latest = data.rows.reduce((a,b)=>data.issues[a.query][1]>=data.issues[b.query][1]?a:b);
+get("choose").value=String(data.rows.indexOf(latest));
+get("choose").addEventListener("change",update);update();
+</script></body></html>

@@ -1,0 +1,1247 @@
+[
+  {
+    "number": 15106,
+    "title": "Option to render proper scrollbar",
+    "created_at": "2016-11-07T15:26:00Z"
+  },
+  {
+    "number": 34442,
+    "title": "Extract the integrated terminal",
+    "created_at": "2017-09-15T09:46:22Z"
+  },
+  {
+    "number": 127441,
+    "title": "Git - incorrectly highlight changed lines",
+    "created_at": "2021-06-29T11:39:46Z"
+  },
+  {
+    "number": 308421,
+    "title": "Black background after space in terminal",
+    "created_at": "2026-04-08T04:24:19Z"
+  },
+  {
+    "number": 319261,
+    "title": "Text suddently disappear in all the terminal windows",
+    "created_at": "2026-06-01T05:34:37Z"
+  },
+  {
+    "number": 319266,
+    "title": "VS Code's terminal fails to load PowerShell modules yet they successfully load in Windows Terminal (PowerShell 7+)",
+    "created_at": "2026-06-01T06:48:39Z"
+  },
+  {
+    "number": 319288,
+    "title": "terminal.integrated.tabs.title template ignored when process sends OSC title sequences",
+    "created_at": "2026-06-01T09:45:12Z"
+  },
+  {
+    "number": 319289,
+    "title": "Bug In Header and Terminal",
+    "created_at": "2026-06-01T09:45:56Z"
+  },
+  {
+    "number": 319364,
+    "title": "Workspace search \"files to include\" always filters to \"Only search in open editors\" regardless of selection",
+    "created_at": "2026-06-01T15:19:44Z"
+  },
+  {
+    "number": 319373,
+    "title": "Digits become superscript in the hover tooltip in debug session with 'ss02' enabled as an option in editor.fontLigatures for any font",
+    "created_at": "2026-06-01T15:59:57Z"
+  },
+  {
+    "number": 319536,
+    "title": "Terminal \"Rerun Task\" button closes the task instead of restarting it",
+    "created_at": "2026-06-02T07:15:45Z"
+  },
+  {
+    "number": 319615,
+    "title": "[Error] unhandlederror-Uncaught Error: Assertion Failed  Error: Assertion Failed     at Ve (out/vs/editor/co...",
+    "created_at": "2026-06-02T16:42:54Z"
+  },
+  {
+    "number": 319634,
+    "title": "Update to 1.122.1 Breaks Terminal / pty-host connection",
+    "created_at": "2026-06-02T19:13:19Z"
+  },
+  {
+    "number": 319684,
+    "title": "Setting \"workbench.editor.useModal\": \"off\" does not work completely.",
+    "created_at": "2026-06-03T06:03:09Z"
+  },
+  {
+    "number": 319751,
+    "title": "editor.inactiveLineHighlightBackground does not work when navigating problems panel and global or local search results",
+    "created_at": "2026-06-03T14:46:30Z"
+  },
+  {
+    "number": 319821,
+    "title": "Terminal: OSC 52 clipboard garbled for Chinese (UTF-8 multi-byte) characters since 1.123.0",
+    "created_at": "2026-06-03T22:35:57Z"
+  },
+  {
+    "number": 319825,
+    "title": "Terminal detail popup missing vertical scrollbar, bottom content & hidden buttons cannot be clicked",
+    "created_at": "2026-06-03T23:26:22Z"
+  },
+  {
+    "number": 319839,
+    "title": "Testing Explorer is not getting refreshed",
+    "created_at": "2026-06-04T02:50:36Z"
+  },
+  {
+    "number": 319853,
+    "title": "Terminal copy corrupts UTF-8 (Japanese/CJK/emoji) text via OSC 52 round-trip in 1.123 (atob in @xterm/addon-clipboard)",
+    "created_at": "2026-06-04T06:00:56Z"
+  },
+  {
+    "number": 319861,
+    "title": "Can't multi-select (for compare) in open editors",
+    "created_at": "2026-06-04T07:39:03Z"
+  },
+  {
+    "number": 319862,
+    "title": "Right-click options in OPEN EDITORs apply to current file",
+    "created_at": "2026-06-04T07:43:25Z"
+  },
+  {
+    "number": 319870,
+    "title": "my explorer doent show file tree",
+    "created_at": "2026-06-04T08:15:41Z"
+  },
+  {
+    "number": 319898,
+    "title": "Sticky Scroll maxLineCount overrides and breaks cursorSurroundingLines at both top and bottom of the editor",
+    "created_at": "2026-06-04T11:32:15Z"
+  },
+  {
+    "number": 319907,
+    "title": "An illogical keyboard focus order observed when navigating from Split Editor button using Tab key: A11y_VS code_Keyboard",
+    "created_at": "2026-06-04T12:16:09Z"
+  },
+  {
+    "number": 319925,
+    "title": "Solution Explorer Does not appear",
+    "created_at": "2026-06-04T13:59:50Z"
+  },
+  {
+    "number": 319934,
+    "title": "Markdown `editor.colorDecorators: false` not honored on startup; likely race condition",
+    "created_at": "2026-06-04T14:40:07Z"
+  },
+  {
+    "number": 319943,
+    "title": "Terminal missing letters and black blocks replacing content",
+    "created_at": "2026-06-04T15:20:06Z"
+  },
+  {
+    "number": 319956,
+    "title": "editor.showUnused in .js is not working",
+    "created_at": "2026-06-04T16:37:36Z"
+  },
+  {
+    "number": 319988,
+    "title": "[Linux] Workbench system-ui / sans-serif (and explicitly-named non-Nerd fonts) render as an installed Nerd Font; terminal glyph fallback also broken — Electron 39",
+    "created_at": "2026-06-04T19:14:41Z"
+  },
+  {
+    "number": 320001,
+    "title": "`xdg-open`, in `pwsh`, in `warp-terminal-preview`, causes `code-insiders-1.123.0-1780372709.el8` to fail to resolve the shell environment, due to an unexpected exit code of `null` (and `SigAbrt`).",
+    "created_at": "2026-06-04T20:27:17Z"
+  },
+  {
+    "number": 320013,
+    "title": "'esc' only closes the modal when focus is in the editor",
+    "created_at": "2026-06-04T22:35:06Z"
+  },
+  {
+    "number": 320042,
+    "title": "In the server version of VSCode, the menu item is missing in the upper-right corner of the new terminal window",
+    "created_at": "2026-06-05T03:45:41Z"
+  },
+  {
+    "number": 320044,
+    "title": "Remote session/task persistence: Detach, preserve, and reattach all active tasks, terminals, and extension processes in VS Code Remote",
+    "created_at": "2026-06-05T03:55:48Z"
+  },
+  {
+    "number": 320059,
+    "title": "通过remote explorer远程左边菜单栏插件显示方格符号",
+    "created_at": "2026-06-05T08:02:25Z"
+  },
+  {
+    "number": 320061,
+    "title": "Debugger not executing test anymore when using workbench.action.terminal.kill",
+    "created_at": "2026-06-05T08:22:34Z"
+  },
+  {
+    "number": 320063,
+    "title": "\"Open New External Terminal\" does not correctly work with GNOME's default terminal emulator `ptyxis` . Fails to open window  that is navigated to the directory",
+    "created_at": "2026-06-05T08:39:02Z"
+  },
+  {
+    "number": 320078,
+    "title": "在使用windows端Romote Explorer链接Linux端时左侧菜单栏图标显示方框",
+    "created_at": "2026-06-05T11:18:37Z"
+  },
+  {
+    "number": 320220,
+    "title": "Integrated terminal freezes when pasting plain text copied from LibreOffice on Linux",
+    "created_at": "2026-06-06T10:26:02Z"
+  },
+  {
+    "number": 320264,
+    "title": "terminal issue",
+    "created_at": "2026-06-06T22:30:40Z"
+  },
+  {
+    "number": 320352,
+    "title": "Editor broken with error code -2147483645",
+    "created_at": "2026-06-08T06:57:03Z"
+  },
+  {
+    "number": 320367,
+    "title": "Terminal font rendering",
+    "created_at": "2026-06-08T08:16:58Z"
+  },
+  {
+    "number": 320369,
+    "title": "Unable to use certain fonts in the editor (Consolas) since the last update",
+    "created_at": "2026-06-08T08:37:10Z"
+  },
+  {
+    "number": 320370,
+    "title": "Global Find and Replace，Replace error without open file editor",
+    "created_at": "2026-06-08T08:38:10Z"
+  },
+  {
+    "number": 320393,
+    "title": "Context length selector changes on all open editors",
+    "created_at": "2026-06-08T10:52:51Z"
+  },
+  {
+    "number": 320394,
+    "title": "Always use main Tab Group when opening new Editors from Explorer",
+    "created_at": "2026-06-08T10:58:11Z"
+  },
+  {
+    "number": 320557,
+    "title": "Black squares in terminal",
+    "created_at": "2026-06-09T07:35:14Z"
+  },
+  {
+    "number": 320649,
+    "title": "terminal issue",
+    "created_at": "2026-06-09T18:53:33Z"
+  },
+  {
+    "number": 320744,
+    "title": "Hybrid Markdown Editor",
+    "created_at": "2026-06-10T10:24:13Z"
+  },
+  {
+    "number": 320756,
+    "title": "Strange white text showing up in editor",
+    "created_at": "2026-06-10T11:33:32Z"
+  },
+  {
+    "number": 320765,
+    "title": "Add a conversation-level cache hit rate to cache explorer, remove utility models from the explorer",
+    "created_at": "2026-06-10T13:26:13Z"
+  },
+  {
+    "number": 320875,
+    "title": "Add a background highlight effect when hovering over the File Explorer icon.",
+    "created_at": "2026-06-11T02:09:10Z"
+  },
+  {
+    "number": 320893,
+    "title": "open terminal in editor area is shared between vscode instances",
+    "created_at": "2026-06-11T05:21:17Z"
+  },
+  {
+    "number": 320899,
+    "title": "the issue of showing previous projects and folders on remote explorer",
+    "created_at": "2026-06-11T06:14:12Z"
+  },
+  {
+    "number": 320969,
+    "title": "Modernization: Add rounded scroll bars to workbench/editor",
+    "created_at": "2026-06-11T15:02:25Z"
+  },
+  {
+    "number": 321195,
+    "title": "editor.findMatch ... Foreground vs HighlightForeground",
+    "created_at": "2026-06-12T18:11:06Z"
+  },
+  {
+    "number": 321245,
+    "title": "Move Terminal into Editor Area command.",
+    "created_at": "2026-06-13T05:18:48Z"
+  },
+  {
+    "number": 321276,
+    "title": "Call Stack view layout and resizing bugs when docked to Explorer or Panel",
+    "created_at": "2026-06-13T15:36:59Z"
+  },
+  {
+    "number": 321363,
+    "title": "folder is missing in the explorer",
+    "created_at": "2026-06-15T04:52:34Z"
+  },
+  {
+    "number": 321404,
+    "title": "Copy/Paste to Windows file explorer not working",
+    "created_at": "2026-06-15T13:19:26Z"
+  },
+  {
+    "number": 321689,
+    "title": "VS Code Explorer Fails on Case-Sensitive APFS with Directories Differing Only by Case",
+    "created_at": "2026-06-16T23:36:07Z"
+  },
+  {
+    "number": 322713,
+    "title": "Setup error: Explorer integration code_explorer_command_x64.dll not unloaded / There was an error while deleting a directory",
+    "created_at": "2026-06-24T11:45:11Z"
+  },
+  {
+    "number": 322795,
+    "title": "Remote Explorer Dev Containers \"Server Returned 404\"",
+    "created_at": "2026-06-24T18:28:14Z"
+  },
+  {
+    "number": 322826,
+    "title": "Visual Studio Code 1.126: explorer.incrementalNaming (simple) stopped working",
+    "created_at": "2026-06-24T21:21:38Z"
+  },
+  {
+    "number": 322867,
+    "title": "explorer not showing folder",
+    "created_at": "2026-06-25T03:54:00Z"
+  },
+  {
+    "number": 322907,
+    "title": "[Explorer/Outline] Add filter to show only exported members",
+    "created_at": "2026-06-25T09:35:25Z"
+  },
+  {
+    "number": 323068,
+    "title": "File explorer - copy/paste (file) does not work unless you disable the new confirmation dialog",
+    "created_at": "2026-06-26T07:32:47Z"
+  },
+  {
+    "number": 323095,
+    "title": "The directory is pasted before I even click \"Yes\" in the explorer tab",
+    "created_at": "2026-06-26T10:11:20Z"
+  },
+  {
+    "number": 323173,
+    "title": "ENH: Explorer: Show the symlink dest in the tooltip",
+    "created_at": "2026-06-26T17:24:55Z"
+  },
+  {
+    "number": 323192,
+    "title": "Expose reveal scroll-alignment to the TreeView API (and an Explorer/SCM \"reveal with context\" option)",
+    "created_at": "2026-06-26T18:59:15Z"
+  },
+  {
+    "number": 323322,
+    "title": "Dragging a file from VSCode Explorer pane into a browser fails to open it",
+    "created_at": "2026-06-28T09:26:50Z"
+  },
+  {
+    "number": 323488,
+    "title": "Explorer context menu command target depends on selection size",
+    "created_at": "2026-06-29T13:14:19Z"
+  },
+  {
+    "number": 323869,
+    "title": "Feature Request: Horizontal Primary Side Bar (Activity Bar) — Explorer/Search/SCM/Debug/Extensions like modern VS Code forks",
+    "created_at": "2026-07-01T12:42:05Z"
+  },
+  {
+    "number": 323993,
+    "title": "explorer issue",
+    "created_at": "2026-07-02T06:13:37Z"
+  },
+  {
+    "number": 323997,
+    "title": "Bug: The Explorer cannot paste",
+    "created_at": "2026-07-02T06:19:12Z"
+  },
+  {
+    "number": 324043,
+    "title": "\"explorer.sortOrder\": \"filesFirst\" doesn't apply in \"Source control\" view with \"View as Tree\"",
+    "created_at": "2026-07-02T11:49:17Z"
+  },
+  {
+    "number": 324306,
+    "title": "Missing Explorer Menu",
+    "created_at": "2026-07-04T15:22:29Z"
+  },
+  {
+    "number": 324642,
+    "title": "Modernize: Make file explorer title respect folder title casing",
+    "created_at": "2026-07-06T22:03:49Z"
+  },
+  {
+    "number": 325095,
+    "title": "Paste is disabled in file explorer",
+    "created_at": "2026-07-09T09:02:21Z"
+  },
+  {
+    "number": 328933,
+    "title": "Markdown editor: Undo groups typing one character at a time",
+    "created_at": "2026-08-04T10:35:50Z"
+  },
+  {
+    "number": 330801,
+    "title": "erminal text becomes unreadable in light themes due to black background rendering",
+    "created_at": "2026-08-14T07:19:14Z"
+  },
+  {
+    "number": 330947,
+    "title": "Markdown opened with md editor and can't see comment",
+    "created_at": "2026-08-14T20:16:24Z"
+  },
+  {
+    "number": 333759,
+    "title": "Linux: `editor.smoothScrolling` setting has no effect",
+    "created_at": "2026-09-01T12:22:58Z"
+  },
+  {
+    "number": 333824,
+    "title": "Diff editor hybrid layout: Use different wrapping points, depending on initial state",
+    "created_at": "2026-09-01T17:48:48Z"
+  },
+  {
+    "number": 333907,
+    "title": "The **OPEN EDITORS** section should occupy all the available space",
+    "created_at": "2026-09-02T00:00:08Z"
+  },
+  {
+    "number": 333933,
+    "title": "Terminal: empty rename does not restore dynamic tab title — stale staticTitle is never cleared",
+    "created_at": "2026-09-02T04:37:14Z"
+  },
+  {
+    "number": 333948,
+    "title": "Terminal from another window's workspace appears in a newly opened window (regression of #133542)",
+    "created_at": "2026-09-02T07:55:40Z"
+  },
+  {
+    "number": 333976,
+    "title": "Massive Handle Leak and System Freeze with Split Terminals (v1.135.0)",
+    "created_at": "2026-09-02T12:01:17Z"
+  },
+  {
+    "number": 333977,
+    "title": "VS Code Bug Report: Massive Handle Leak and System Freeze with Split Terminals (v1.135.0)",
+    "created_at": "2026-09-02T12:04:29Z"
+  },
+  {
+    "number": 334092,
+    "title": "Diff editor ignores working-tree-encoding, showing entire file as modified",
+    "created_at": "2026-09-02T19:17:27Z"
+  },
+  {
+    "number": 334160,
+    "title": "Markdown \"Open as Preview\" shows a blank editor",
+    "created_at": "2026-09-03T02:33:57Z"
+  },
+  {
+    "number": 334161,
+    "title": "Markdown Editor: Allow for comment annotations in VS Code as well as remote tunnel web",
+    "created_at": "2026-09-03T02:51:01Z"
+  },
+  {
+    "number": 334167,
+    "title": "Primary Side Bar Width Resets After Toggling Visibility (CTRL + B)",
+    "created_at": "2026-09-03T03:39:03Z"
+  },
+  {
+    "number": 334232,
+    "title": "Preserve editor match rules when configuring defaults",
+    "created_at": "2026-09-03T11:08:34Z"
+  },
+  {
+    "number": 334243,
+    "title": "Support symlinks to be shown in multi-diff editor",
+    "created_at": "2026-09-03T12:08:43Z"
+  },
+  {
+    "number": 334343,
+    "title": "Terminal highlighting when using light mode",
+    "created_at": "2026-09-03T18:43:10Z"
+  },
+  {
+    "number": 334355,
+    "title": "Almost empty page proclaims \"The request is blocked.\" instead launching VSCode.dev editor?",
+    "created_at": "2026-09-03T19:19:58Z"
+  },
+  {
+    "number": 334414,
+    "title": "macOS Vietnamese Telex IME causes line/cursor jump in integrated terminal (not editor, not Terminal.app)",
+    "created_at": "2026-09-04T04:32:32Z"
+  },
+  {
+    "number": 334429,
+    "title": "Markdown Editor is entirely unavailable",
+    "created_at": "2026-09-04T06:14:55Z"
+  },
+  {
+    "number": 334469,
+    "title": "Make Ctrl-P dirname/ focus dirname in Explorer",
+    "created_at": "2026-09-04T11:45:01Z"
+  },
+  {
+    "number": 334489,
+    "title": "Alt keyup is missed while a webview editor has focus, silently turning a tab's Close button into \"Close Other Editors\"",
+    "created_at": "2026-09-04T13:01:06Z"
+  },
+  {
+    "number": 334556,
+    "title": "Test: Binary files in multi-diff editors",
+    "created_at": "2026-09-04T17:13:05Z"
+  },
+  {
+    "number": 334558,
+    "title": "Test: GitHub rich links in the Markdown editor",
+    "created_at": "2026-09-04T17:13:30Z"
+  },
+  {
+    "number": 334617,
+    "title": "The integrated terminal in Visual Studio Code freezes and stops responding",
+    "created_at": "2026-09-04T20:31:23Z"
+  },
+  {
+    "number": 334659,
+    "title": "Refactor Monaco editor worker configuration example to use arrow functions",
+    "created_at": "2026-09-04T23:12:18Z"
+  },
+  {
+    "number": 334715,
+    "title": "Preserve Thinking When Sending Background Terminal Result",
+    "created_at": "2026-09-05T12:19:07Z"
+  },
+  {
+    "number": 334733,
+    "title": "Explorer's width is getting auto reset to minimum",
+    "created_at": "2026-09-05T21:19:08Z"
+  },
+  {
+    "number": 334767,
+    "title": "Markdown editor does not respect blinking cursor preference",
+    "created_at": "2026-09-06T06:52:21Z"
+  },
+  {
+    "number": 334786,
+    "title": "Scrollbar slider thumb becomes nearly invisible at the bottom edge of webview editor tabs in Light Mode (macOS)",
+    "created_at": "2026-09-06T09:46:32Z"
+  },
+  {
+    "number": 334789,
+    "title": "Markdown editor cannot (easily) edit an empty file",
+    "created_at": "2026-09-06T10:30:53Z"
+  },
+  {
+    "number": 334837,
+    "title": "Main process leaks every terminal's pty output: `ProxyChannel.fromService(PtyHostService)` buffers `onProcessData` via `Event.buffer` for a `localPty` listener that never attaches",
+    "created_at": "2026-09-07T00:03:05Z"
+  },
+  {
+    "number": 334867,
+    "title": "Compact editor tab height: Search controls too tight",
+    "created_at": "2026-09-07T08:47:13Z"
+  },
+  {
+    "number": 334890,
+    "title": "Sidebar width is not stored on Modern UI with Layout density set to \"default\".",
+    "created_at": "2026-09-07T10:34:58Z"
+  },
+  {
+    "number": 334901,
+    "title": "Review comments clipped in multi-file diff editor",
+    "created_at": "2026-09-07T11:25:38Z"
+  },
+  {
+    "number": 334903,
+    "title": "Prev/Next navigation widget is above all editors",
+    "created_at": "2026-09-07T11:59:05Z"
+  },
+  {
+    "number": 334915,
+    "title": "[Terminal] Double-click word selection overruns into a following CJK fullwidth separator character",
+    "created_at": "2026-09-07T13:30:30Z"
+  },
+  {
+    "number": 334923,
+    "title": "Modern UI: terminal cwd label overlaps panel tabs after changing directory",
+    "created_at": "2026-09-07T14:14:43Z"
+  },
+  {
+    "number": 334935,
+    "title": "Markdown Editor: escaped dollar signs (\\$, &#36;) disappear, and two prices in one paragraph render as inline math",
+    "created_at": "2026-09-07T15:19:56Z"
+  },
+  {
+    "number": 334951,
+    "title": "Terminal toolbar overlaps panel tabs and clicks select the tabs underneath",
+    "created_at": "2026-09-07T16:46:07Z"
+  },
+  {
+    "number": 334979,
+    "title": "Terminal memory leak (oom-kill)",
+    "created_at": "2026-09-07T21:43:23Z"
+  },
+  {
+    "number": 335054,
+    "title": "[Feature Request] Terminal: add inline Clear action to the tab hover actions (next to Split/Kill)",
+    "created_at": "2026-09-08T13:35:26Z"
+  },
+  {
+    "number": 335171,
+    "title": "Workspace should not need to be \"trusted\" to create a terminal",
+    "created_at": "2026-09-08T23:06:25Z"
+  },
+  {
+    "number": 335193,
+    "title": "Terminal sticky scroll header positioned incorrectly",
+    "created_at": "2026-09-09T02:11:40Z"
+  },
+  {
+    "number": 335217,
+    "title": "Explorer must stay standalone when no folder is opened: \"No Folder Opened\" view is missing `canMoveView`",
+    "created_at": "2026-09-09T07:53:51Z"
+  },
+  {
+    "number": 335425,
+    "title": "Integrated terminal inserts IME-committed text twice (WeChat IME voice input, Windows)",
+    "created_at": "2026-09-10T09:14:40Z"
+  },
+  {
+    "number": 335441,
+    "title": "Terminal and Help menu hidden under ... in VS Code for Windows",
+    "created_at": "2026-09-10T10:28:03Z"
+  },
+  {
+    "number": 335619,
+    "title": "Terminal is blank",
+    "created_at": "2026-09-11T04:10:45Z"
+  },
+  {
+    "number": 335651,
+    "title": "terminal extra details",
+    "created_at": "2026-09-11T08:57:11Z"
+  },
+  {
+    "number": 335681,
+    "title": "Add ability to pin folders in the Project Explorer",
+    "created_at": "2026-09-11T10:16:45Z"
+  },
+  {
+    "number": 335693,
+    "title": "Feature Request: Add \"Reopen Closed Terminal\" command (like Ctrl+Shift+T in web browsers)",
+    "created_at": "2026-09-11T11:34:15Z"
+  },
+  {
+    "number": 336084,
+    "title": "Support copying files from Explorer to system clipboard for pasting outside VS Code",
+    "created_at": "2026-09-14T01:02:41Z"
+  },
+  {
+    "number": 336099,
+    "title": "C# project Folders not showing in files explorer view - multi-root workspace",
+    "created_at": "2026-09-14T03:02:30Z"
+  },
+  {
+    "number": 336516,
+    "title": "C# errors are shown in the Explorer but the editor does not highlight the error line.",
+    "created_at": "2026-09-17T03:03:11Z"
+  },
+  {
+    "number": 336695,
+    "title": "Vitest Explorer fails to initialize on VS Code Insiders 1.139.0 while Stable works",
+    "created_at": "2026-09-18T04:56:12Z"
+  },
+  {
+    "number": 336713,
+    "title": "Explorer doesn't show my files when first opening VS Code",
+    "created_at": "2026-09-18T07:31:22Z"
+  },
+  {
+    "number": 336718,
+    "title": "Comments are not shown in md editor",
+    "created_at": "2026-09-18T07:52:34Z"
+  },
+  {
+    "number": 337003,
+    "title": "all sessions, explorer (workspaces) wiped since update",
+    "created_at": "2026-09-21T10:12:56Z"
+  },
+  {
+    "number": 337028,
+    "title": "Bug: right click in explorer / New folder/file when Vscode is not focussed leads to \"textbox\" without",
+    "created_at": "2026-09-21T12:35:01Z"
+  },
+  {
+    "number": 337240,
+    "title": "Scrollbars on Terminal, Debug Output, etc. panels need buttons for precision scrolling",
+    "created_at": "2026-09-22T09:23:58Z"
+  },
+  {
+    "number": 338125,
+    "title": "Explorer rename input closes when switching input sources on GNOME Wayland",
+    "created_at": "2026-09-26T17:01:41Z"
+  },
+  {
+    "number": 338330,
+    "title": "Test Explorer fails to show icons in descriptions",
+    "created_at": "2026-09-28T10:23:23Z"
+  },
+  {
+    "number": 338850,
+    "title": "Invalid Explorer Directory Structure",
+    "created_at": "2026-09-30T06:45:28Z"
+  },
+  {
+    "number": 339084,
+    "title": "Explorer: add \"Collapse All\" and \"Expand All\" to the folder context menu",
+    "created_at": "2026-10-01T11:46:34Z"
+  },
+  {
+    "number": 339139,
+    "title": "Terminal windows go blank and text no longer visible",
+    "created_at": "2026-10-01T17:19:54Z"
+  },
+  {
+    "number": 339173,
+    "title": "Terminal shortcuts should take priority over VS Code commands when alternate buffer is active",
+    "created_at": "2026-10-01T20:32:01Z"
+  },
+  {
+    "number": 339278,
+    "title": "Shift+drag from the Explorer no longer delivers drag/drop events to a webview (regression)",
+    "created_at": "2026-10-02T11:50:45Z"
+  },
+  {
+    "number": 339304,
+    "title": "Terminal file links not working sometimes",
+    "created_at": "2026-10-02T14:45:20Z"
+  },
+  {
+    "number": 339312,
+    "title": "[Error] unhandlederror-Cannot unbind a diff editor template from a different item",
+    "created_at": "2026-10-02T15:37:51Z"
+  },
+  {
+    "number": 339318,
+    "title": "fix: guard terminal scroll operations before renderer is attached (fixes #339313)",
+    "created_at": "2026-10-02T16:19:45Z"
+  },
+  {
+    "number": 339338,
+    "title": "Comment widget code-range highlight obscures editor selection",
+    "created_at": "2026-10-02T17:46:27Z"
+  },
+  {
+    "number": 339385,
+    "title": "Test: Connected editor tab geometry and customizations",
+    "created_at": "2026-10-02T20:39:04Z"
+  },
+  {
+    "number": 339441,
+    "title": "Allow configuring which terminal profiles are elevated into the AI group",
+    "created_at": "2026-10-03T01:47:27Z"
+  },
+  {
+    "number": 339468,
+    "title": "Built-in browser maximizes to full viewport on click within 3-column editor groups (bad large-screen UX for mobile dev)",
+    "created_at": "2026-10-03T09:38:20Z"
+  },
+  {
+    "number": 339482,
+    "title": "Icons overlap in multi-diff editor",
+    "created_at": "2026-10-03T16:23:15Z"
+  },
+  {
+    "number": 339486,
+    "title": "Feature Request: Independent text zoom for individual editor groups",
+    "created_at": "2026-10-03T17:01:07Z"
+  },
+  {
+    "number": 339566,
+    "title": "Diff editor: unchanged regions are not collapsed when opening a diff or when enabling \"Collapse Unchanged Regions\"",
+    "created_at": "2026-10-04T06:34:29Z"
+  },
+  {
+    "number": 339599,
+    "title": "Font",
+    "created_at": "2026-10-04T17:49:07Z"
+  },
+  {
+    "number": 339607,
+    "title": "Font",
+    "created_at": "2026-10-04T18:52:58Z"
+  },
+  {
+    "number": 339610,
+    "title": "Bulk file moves repeatedly refresh expanded Explorer folders",
+    "created_at": "2026-10-04T19:17:47Z"
+  },
+  {
+    "number": 339673,
+    "title": "Filename in editor tabs in 1.140.0",
+    "created_at": "2026-10-05T08:57:00Z"
+  },
+  {
+    "number": 339748,
+    "title": "First tab in editor group to the side/bottom should not have border radius top left corner",
+    "created_at": "2026-10-05T11:54:44Z"
+  },
+  {
+    "number": 339749,
+    "title": "Editor tab border color merges with editor group border color",
+    "created_at": "2026-10-05T11:57:33Z"
+  },
+  {
+    "number": 339751,
+    "title": "Editor tabs with wrapped tabs enabled can lead to gap at the top when there is only a single tab line",
+    "created_at": "2026-10-05T12:05:53Z"
+  },
+  {
+    "number": 339763,
+    "title": "Terminal: Run Recent Command…: Pin command fails quietly",
+    "created_at": "2026-10-05T12:41:01Z"
+  },
+  {
+    "number": 339767,
+    "title": "`workbench.editor.tabActionLocation` set to left has a lot of gaps/padding/margin",
+    "created_at": "2026-10-05T13:02:19Z"
+  },
+  {
+    "number": 339768,
+    "title": "`workbench.editor.tabActionReserveSpace` doesn't work",
+    "created_at": "2026-10-05T13:03:56Z"
+  },
+  {
+    "number": 339772,
+    "title": "Maximized editor group shows double border",
+    "created_at": "2026-10-05T13:11:37Z"
+  },
+  {
+    "number": 339773,
+    "title": "`workbench.editor.highlightModifiedTabs` enabled gumps when active vs not active",
+    "created_at": "2026-10-05T13:13:58Z"
+  },
+  {
+    "number": 340054,
+    "title": "Untitled custom-editor switching can strand text and blocks safe Reopen With transitions",
+    "created_at": "2026-10-06T14:35:24Z"
+  },
+  {
+    "number": 340055,
+    "title": "Readonly untitled custom editors remain dirty and cannot close after discard",
+    "created_at": "2026-10-06T14:36:14Z"
+  },
+  {
+    "number": 340096,
+    "title": "cannot open remote AH session in editor",
+    "created_at": "2026-10-06T17:25:46Z"
+  },
+  {
+    "number": 340126,
+    "title": "Webview editor panels stall for minutes (suspect maxActiveHostResourceResponseBodies)",
+    "created_at": "2026-10-06T19:14:13Z"
+  },
+  {
+    "number": 340185,
+    "title": "Terminal created from a contributed terminal profile is not focused when the extension host is remote (creation is not awaited before focusing the \"last\" instance)",
+    "created_at": "2026-10-07T00:07:49Z"
+  },
+  {
+    "number": 340251,
+    "title": "Terminal",
+    "created_at": "2026-10-07T09:44:23Z"
+  },
+  {
+    "number": 340256,
+    "title": "No editor text sheet appears.",
+    "created_at": "2026-10-07T10:09:37Z"
+  },
+  {
+    "number": 340273,
+    "title": "StandAlone terminal",
+    "created_at": "2026-10-07T11:58:17Z"
+  },
+  {
+    "number": 340383,
+    "title": "Allow editor font settings to be scoped by file encoding",
+    "created_at": "2026-10-07T22:24:08Z"
+  },
+  {
+    "number": 340397,
+    "title": "Touch scrolling in the editor stops, and momentum stops working, once the touched line scrolls out of view",
+    "created_at": "2026-10-07T23:36:40Z"
+  },
+  {
+    "number": 340438,
+    "title": "terminal is not working properly",
+    "created_at": "2026-10-08T05:19:20Z"
+  },
+  {
+    "number": 340453,
+    "title": "Lag throughout editor regardless of document",
+    "created_at": "2026-10-08T07:01:25Z"
+  },
+  {
+    "number": 340466,
+    "title": "Windows emoji panel (Win+.) inserts nothing in the editor when `editor.editContext` is enabled",
+    "created_at": "2026-10-08T09:13:04Z"
+  },
+  {
+    "number": 340476,
+    "title": "Python extension: 6-second execution delay starting from the second run in VS Code integrated terminal (Windows)",
+    "created_at": "2026-10-08T10:47:24Z"
+  },
+  {
+    "number": 340490,
+    "title": "editor.maxTokenizationLineLength",
+    "created_at": "2026-10-08T13:08:09Z"
+  },
+  {
+    "number": 340676,
+    "title": "ctrl+shift+click to open localhost terminal links in an external browser",
+    "created_at": "2026-10-09T08:34:00Z"
+  },
+  {
+    "number": 340737,
+    "title": "My Terminal Is Sad After Latest Update",
+    "created_at": "2026-10-09T14:46:27Z"
+  },
+  {
+    "number": 340786,
+    "title": "Terminal vertical resize is unthrottled in TerminalResizeDebouncer, causing SIGWINCH storm and 'Window is not responding'",
+    "created_at": "2026-10-09T19:10:48Z"
+  },
+  {
+    "number": 340812,
+    "title": "Explorer doesn't show directories with certain characters",
+    "created_at": "2026-10-09T22:36:11Z"
+  },
+  {
+    "number": 340897,
+    "title": "Terminal link tooltips never appear or flicker during unrelated redraws",
+    "created_at": "2026-10-11T06:16:27Z"
+  },
+  {
+    "number": 340940,
+    "title": "Terminal file links don't work for key=path:line",
+    "created_at": "2026-10-11T19:30:17Z"
+  },
+  {
+    "number": 341109,
+    "title": "Terminal has an inch of blank space at the bottom of it",
+    "created_at": "2026-10-12T17:31:19Z"
+  },
+  {
+    "number": 341110,
+    "title": "Markdown editor: Undo reverts one character at a time",
+    "created_at": "2026-10-12T17:31:24Z"
+  },
+  {
+    "number": 341235,
+    "title": "VS Code Explorer does not show the opened project folder",
+    "created_at": "2026-10-13T03:25:37Z"
+  },
+  {
+    "number": 341302,
+    "title": "Terminal type-ahead latency stats are sorted as strings instead of numbers",
+    "created_at": "2026-10-13T13:54:32Z"
+  },
+  {
+    "number": 341753,
+    "title": "powershell terminall is not consistent",
+    "created_at": "2026-10-15T11:42:15Z"
+  },
+  {
+    "number": 341802,
+    "title": "Powershell terminal is not consistent even after update",
+    "created_at": "2026-10-15T15:51:28Z"
+  },
+  {
+    "number": 342804,
+    "title": "Windows 11 context menu \"Open with Code\" shows garbled title on zh-CN systems (code_explorer_command_x64.dll)",
+    "created_at": "2026-10-20T06:34:34Z"
+  },
+  {
+    "number": 343177,
+    "title": "Explorer context menu misses entries when right-clicking the same file after switching editors",
+    "created_at": "2026-10-21T09:29:47Z"
+  },
+  {
+    "number": 343178,
+    "title": "Explorer context menu misses entries when right-clicking the same file after switching editors",
+    "created_at": "2026-10-21T09:30:36Z"
+  },
+  {
+    "number": 343251,
+    "title": "Add a manual \"Reveal Active File in Explorer\" button to the Explorer title toolbar",
+    "created_at": "2026-10-21T16:02:42Z"
+  },
+  {
+    "number": 343791,
+    "title": "explorer",
+    "created_at": "2026-10-23T13:46:44Z"
+  },
+  {
+    "number": 344073,
+    "title": "Background color of Terminal window does not get restored",
+    "created_at": "2026-10-24T19:49:41Z"
+  },
+  {
+    "number": 344598,
+    "title": "Test Explorer type-to-filter steals focus before custom printable-key shortcuts execute",
+    "created_at": "2026-10-27T16:41:30Z"
+  },
+  {
+    "number": 344742,
+    "title": "Flat File Explorer",
+    "created_at": "2026-10-28T14:23:26Z"
+  },
+  {
+    "number": 344770,
+    "title": "Malformed URI in DataTransferFile when dropping files from Windows Explorer into an extension TreeView",
+    "created_at": "2026-10-28T15:54:37Z"
+  },
+  {
+    "number": 344851,
+    "title": "Built-in process explorer doesn't show high cpu usage",
+    "created_at": "2026-10-28T21:54:51Z"
+  },
+  {
+    "number": 344913,
+    "title": "Explorer rejects valid Windows file names with a leading space or Unicode whitespace, and accepts control characters",
+    "created_at": "2026-10-29T07:52:49Z"
+  },
+  {
+    "number": 345407,
+    "title": "Background terminal completion notification is silently dropped when shell integration capabilities are not available yet",
+    "created_at": "2026-11-01T04:53:09Z"
+  },
+  {
+    "number": 345408,
+    "title": "run_in_terminal tool schema fails strict-mode validation: unknown keyword \"enumDescriptions\"",
+    "created_at": "2026-11-01T04:56:00Z"
+  },
+  {
+    "number": 345418,
+    "title": "File sort order in Git graph panel differs from explorer panel",
+    "created_at": "2026-11-01T09:46:53Z"
+  },
+  {
+    "number": 345484,
+    "title": "Diff editor: sides are misaligned after revealing unchanged lines with word wrap on",
+    "created_at": "2026-11-02T05:21:17Z"
+  },
+  {
+    "number": 345577,
+    "title": "Host Settings editor fails to open when restored after a restart",
+    "created_at": "2026-11-02T15:28:03Z"
+  },
+  {
+    "number": 345578,
+    "title": "Sessions with child chats revert to unread after \"Mark as Read\" in the editor window",
+    "created_at": "2026-11-02T15:28:55Z"
+  },
+  {
+    "number": 345641,
+    "title": "Markdown editor Mermaid: removing markdown-mermaid.maxHeight is undone after toggling read/edit mode",
+    "created_at": "2026-11-02T20:11:33Z"
+  },
+  {
+    "number": 345662,
+    "title": "Markdown editor: Mermaid diagram overlaps with styling of currently selected line",
+    "created_at": "2026-11-02T21:23:30Z"
+  },
+  {
+    "number": 345755,
+    "title": "Editor option to control which remote images Markdown in the editor may load",
+    "created_at": "2026-11-03T09:03:15Z"
+  },
+  {
+    "number": 345759,
+    "title": "`code <filename>` in integrated terminal opens the file in a new window",
+    "created_at": "2026-11-03T09:07:16Z"
+  },
+  {
+    "number": 346004,
+    "title": "Bring back a way to decline extension terminal environment contributions",
+    "created_at": "2026-11-04T08:27:31Z"
+  },
+  {
+    "number": 346123,
+    "title": "Support CLI-first AI tooling with developer-controlled terminal execution",
+    "created_at": "2026-11-04T21:04:14Z"
+  },
+  {
+    "number": 346152,
+    "title": "Add a terminal toggle command that checks visibility instead of focus",
+    "created_at": "2026-11-05T00:24:12Z"
+  },
+  {
+    "number": 346220,
+    "title": "Window close shows \"Remove Terminal Auto Replies\" dialog because a pty host is spawned during shutdown",
+    "created_at": "2026-11-05T10:13:39Z"
+  },
+  {
+    "number": 346391,
+    "title": "VS Code terminal loses Shift+Enter modifier",
+    "created_at": "2026-11-05T22:35:18Z"
+  },
+  {
+    "number": 346435,
+    "title": "editor",
+    "created_at": "2026-11-06T01:52:34Z"
+  },
+  {
+    "number": 346436,
+    "title": "editor",
+    "created_at": "2026-11-06T01:52:53Z"
+  },
+  {
+    "number": 346480,
+    "title": "Malformed terminal command reporting issue in VS Code",
+    "created_at": "2026-11-06T07:45:35Z"
+  },
+  {
+    "number": 346487,
+    "title": "Keep Pinned Editor Tabs Fixed While Scrolling Normal Tabs",
+    "created_at": "2026-11-06T08:20:36Z"
+  },
+  {
+    "number": 346512,
+    "title": "Markdown Editor does not support Ctrl+Insert / Shift+Insert for copy/paste",
+    "created_at": "2026-11-06T11:26:20Z"
+  },
+  {
+    "number": 346559,
+    "title": "Expose custom text editor selections (e.g. the Markdown Editor) to extensions",
+    "created_at": "2026-11-06T15:35:06Z"
+  },
+  {
+    "number": 346614,
+    "title": "Test: Edit tables in the Markdown editor",
+    "created_at": "2026-11-06T17:54:22Z"
+  },
+  {
+    "number": 346739,
+    "title": "Go to Symbol in Editor: can it function in Markdown Preview?",
+    "created_at": "2026-11-07T07:53:56Z"
+  },
+  {
+    "number": 346755,
+    "title": "Text editor decorations are not rendered at all when fontWeight or fontStyle is set (1.145.2)",
+    "created_at": "2026-11-07T12:07:26Z"
+  },
+  {
+    "number": 346790,
+    "title": "Explorer jumping around whenever a file window is closed",
+    "created_at": "2026-11-08T00:51:01Z"
+  },
+  {
+    "number": 346824,
+    "title": "Markdown preview editor and rendered Markdown diff never re-read a file whose change on disk was missed",
+    "created_at": "2026-11-08T10:34:30Z"
+  },
+  {
+    "number": 346846,
+    "title": "`update.restartWhenIdle`: an idle terminal blocks the restart with `terminal.runningProcess`",
+    "created_at": "2026-11-08T17:45:11Z"
+  },
+  {
+    "number": 346848,
+    "title": "Terminal editor \"New Terminal\" (+) button disappears when pinned tabs are on a separate row",
+    "created_at": "2026-11-08T17:53:14Z"
+  },
+  {
+    "number": 346866,
+    "title": "terminal not responding",
+    "created_at": "2026-11-08T22:14:19Z"
+  },
+  {
+    "number": 346871,
+    "title": "Opening a named pipe (FIFO) in the editor fails with “Unavailable (FileSystemError)” since 1.139",
+    "created_at": "2026-11-08T22:51:15Z"
+  },
+  {
+    "number": 346876,
+    "title": "explorer.excludeGitIgnore: workspace root folder is hidden when its name matches an unanchored pattern in its own .gitignore",
+    "created_at": "2026-11-09T01:41:55Z"
+  },
+  {
+    "number": 347015,
+    "title": "Markdown editor table commands are not available in the Command Palette",
+    "created_at": "2026-11-09T15:51:49Z"
+  },
+  {
+    "number": 347016,
+    "title": "Markdown editor: clicking near the left edge of a right-aligned table cell puts the caret in the previous cell",
+    "created_at": "2026-11-09T15:51:56Z"
+  },
+  {
+    "number": 347017,
+    "title": "Markdown editor: text typed after pressing Down from the last table row becomes a table row",
+    "created_at": "2026-11-09T15:52:04Z"
+  },
+  {
+    "number": 347071,
+    "title": "Terminal.processId never resolves when a Pseudoterminal closes synchronously in open",
+    "created_at": "2026-11-09T17:32:06Z"
+  },
+  {
+    "number": 347082,
+    "title": "Terminal 4105",
+    "created_at": "2026-11-09T17:37:47Z"
+  },
+  {
+    "number": 347121,
+    "title": "Cancelled custom-editor backup completion deletes the newer recovery backup",
+    "created_at": "2026-11-09T18:52:53Z"
+  },
+  {
+    "number": 347127,
+    "title": "Global and scoped terminal environment mutations replace each other",
+    "created_at": "2026-11-09T18:53:33Z"
+  },
+  {
+    "number": 347146,
+    "title": "Running 'python' in pwsh shell doesn't change the terminal tab title to be 'python'",
+    "created_at": "2026-11-09T19:33:49Z"
+  },
+  {
+    "number": 347282,
+    "title": "[GB Cert][VS Code]: The output GB18030 string contains corrupted characters, such as ▶ in the Terminal panel.",
+    "created_at": "2026-11-10T09:31:13Z"
+  },
+  {
+    "number": 347321,
+    "title": "Make the hidden terminal and background command visible back",
+    "created_at": "2026-11-10T11:27:53Z"
+  },
+  {
+    "number": 348261,
+    "title": "Terminal font extremely small with gpu acceleration and electron43.8.9",
+    "created_at": "2026-11-13T22:10:04Z"
+  },
+  {
+    "number": 348443,
+    "title": "Terminal drawing tiny text with GPU acceleration",
+    "created_at": "2026-11-16T02:19:26Z"
+  },
+  {
+    "number": 348450,
+    "title": "Font rendering issue in terminal after update",
+    "created_at": "2026-11-16T03:48:36Z"
+  }
+]
